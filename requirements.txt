@@ -1,0 +1,12 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+
+# Dev / testing
+pytest>=7.4
+pytest-cov
+
+# Optional extras (not required by the core framework)
+# ta-lib          # technical-analysis indicator library; needs the TA-Lib C library installed first
+# yfinance        # for pulling live OHLCV data via backtester.data.load_yfinance
